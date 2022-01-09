@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "vinesdontgrow_lostallmymoney",
+  "version": "${version}",
+  "name": "VinesDontGrow",
+  "description": "Stops vines from growing",
+  "authors": [
+    "lostallmymoney"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/lostallmymoney",
+    "sources": "https://github.com/lostallmymoney/VinesDontGrow"
+  },
+  "license": "MIT",
+  "icon": "assets/vinesDontGrow_lostallmymoney/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "vinesDontGrow.vinesWontGrow"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "vinesWontGrow_lostallmymoney.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "vinesDontGrow.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "VineBlockMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
